@@ -6,7 +6,7 @@ return playlist
 }
 
 function removeFromPlaylist(playlist, artistName) {
-delete {Kanye: 'Gold Digger'}; 
+delete playlist[artistName]; 
 
 return playlist
 }
